@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+#container {
+    display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    background-color: lightblue;
+    z-index: 1;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li {
+    padding: 5%;
+    list-style: none;
+}
+
+#navbar a {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#navbar a:hover {
+    background-color: aqua;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Home {
+    height: 45.8rem;
+    background: url(/img/logo.jpg) no-repeat center center/cover;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+
+}
+
+#container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 15rem;
+    left: 5rem;
+}
+
+#container1 h1 {
+    font-family: cursive;
+    color: blue;
+    font-size: 3rem;
+}
+
+#container1 h3 {
+    color: blue;
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+.text {
+    position: relative;
+    top: 15rem;
+    left: 15rem;
+}
+.text h1{
+    color: brown !important;
+    text-decoration: none !important;
+}
+#Services {
+    display: flex;
+    flex-direction: column;
+    height: 45.5rem;
+    align-items: center;
+    background-color: lightgreen;
+}
+
+
+#Projects {
+    display: flex;
+    flex-direction: column;
+    height: 45.5rem;
+    background-color: lightblue;
+    align-items: center;
+}
+
+#About {
+    display: flex;
+    flex-direction: column;
+    height: 45.5rem;
+    background-color: green;
+    align-items: center;
+}
+
+#Contact {
+    display: flex;
+    flex-direction: column;
+    height: 45.5rem;
+    align-items: center;
+
+}
+
+#Services h1 {
+    margin-top: 3rem;
+    padding-top: 2rem;
+}
+
+#Projects h1 {
+    margin-top: 3rem;
+    padding-top: 2rem;
+}
+
+#About h1 {
+    margin-top: 3rem;
+    padding-top: 2rem;
+}
+
+#Contact h1 {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.clientservices {
+    display: flex;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: cursive;
+    text-decoration: underline;
+    color: lightcoral;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: blue;
+}
+
+.box {
+    width: 25rem;
+}
+
+p {
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+
+.projectlist a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.projectlist a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: blue;
+}
+
+.projectlist {
+    display: flex;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+}
+
+.aboutme img {
+    border-radius: 100%;
+}
+.aboutme {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    margin-right: 2rem;
+    gap: 8rem;
+    color: aqua;
+}
