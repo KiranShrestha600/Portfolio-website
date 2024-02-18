@@ -1,0 +1,17 @@
+#container
+{
+    flex-direction: column;
+    height: 11rem;
+}
+#Home
+{
+    width: 90rem;
+}
+#Services
+{
+}
+.clientservices
+{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
